@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: https://mern-backend-c5st.onrender.com,
+  baseURL: "https://mern-backend-c5st.onrender.com/api",
 });
 
 api.interceptors.request.use((config) => {
@@ -13,4 +13,5 @@ api.interceptors.request.use((config) => {
 });
 
 export default api;
+
 
